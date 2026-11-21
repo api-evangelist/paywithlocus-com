@@ -1,4 +1,4 @@
-# paywithlocus-com
+# PayWithLocus
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,170 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-paywithlocus-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://paywithlocus.com/
+PayWithLocus provides a platform for agents to integrate AI tools and services, offering a unified API to access a marketplace of over 17,900 tools. Developers can embed payment processing, model selection, and deployment capabilities, billing per‑call or per‑user. The company emphasizes ease of integration, transparent pricing, and support for multiple AI providers, targeting SaaS platforms and enterprises seeking to monetize AI‑driven features.
+
+**Areas:** AI · Platform · Payments · Marketplace · SaaS
+
+## PayWithLocus on APIs.io
+
+Everything profiled for PayWithLocus is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/paywithlocus-com/](https://apis.io/providers/paywithlocus-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (21)
+
+- [PayWithLocus Agent-native onboarding API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-agent-native-onboarding-api/) — Self-registration, human Stripe funding handoff, and restricted account setup for headless agents
+- [PayWithLocus Authentication API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-authentication-api/) — Email-verified self-serve account creation and dashboard identity
+- [PayWithLocus Burn API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-burn-api/) — Metered pay-per-use calls
+- [PayWithLocus Catalog API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-catalog-api/) — Enable/disable APIs and set markups
+- [PayWithLocus Custom APIs API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-custom-apis-api/) — Feature-gated enterprise BYOK providers and schema-backed custom actions
+- [PayWithLocus Customers API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-customers-api/) — Names for the customers a tenant attributes spend to, and every customer's spend
+- [PayWithLocus End users API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-end-users-api/) — End-user accounts, tokens, and allocations
+- [PayWithLocus Hosted Workflows API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-hosted-workflows-api/) — Tenant-private TypeScript Workflow definitions, immutable versions, bounded runs, artifacts, and recovery
+- [PayWithLocus Ledger API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-ledger-api/) — Burn/top-up history and earnings
+- [PayWithLocus MCP API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-mcp-api/) — Stateless Streamable HTTP transport and MCP tool-result contracts
+- [PayWithLocus Okibi Identity API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-okibi-identity-api/) — Feature-gated Okibi identity verification and scoped native CLI credential bootstrap
+- [PayWithLocus Resources API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-resources-api/) — Durable resources an agent bought, such as phone numbers, inboxes and sandboxes
+- [PayWithLocus Tasks API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-tasks-api/) — Delegate a multi-step outcome to Locus with one goal string. Locus compiles an acceptance contract, discovers and calls enabled catalog capabilities with…
+- [PayWithLocus Tenant API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-tenant-api/) — The Tenant API from PayWithLocus — 1 operation(s) for tenant.
+- [PayWithLocus Tenants API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-tenants-api/) — Tenant profile, keys, and settings (dashboard session or secret key)
+- [PayWithLocus Tool discovery API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-tool-discovery-api/) — The Tool discovery API from PayWithLocus — 1 operation(s) for tool discovery.
+- [PayWithLocus Top Ups API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-top-ups-api/) — Locus-hosted checkout top-ups and quotes
+- [PayWithLocus Travel routing API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-travel-routing-api/) — Feature-gated multi-provider flight search, no-dispatch planning, and feedback
+- [PayWithLocus Webhooks API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-webhooks-api/) — Signed events, delivery inspection, and replay
+- [PayWithLocus Widget API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-widget-api/) — End-user JWT surface; a matching publishable key is optional
+- [PayWithLocus Workspace members API](https://apis.io/apis/paywithlocus-com/paywithlocus-com-workspace-members-api/) — Invite-only human workspace membership and role administration
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Paywithlocus Com Webhooks](https://apis.io/asyncapis/paywithlocus-com/paywithlocus-com-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PayWithLocus Agentic Access](https://apis.io/agentic-access/paywithlocus-com/paywithlocus-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AnalyticsResponse](https://apis.io/schemas/paywithlocus-com/paywithlocus-com-analytics-response/)
+- [PricingExplain](https://apis.io/schemas/paywithlocus-com/paywithlocus-com-pricing-explain/)
+- [TaskEnvelope](https://apis.io/schemas/paywithlocus-com/paywithlocus-com-task-envelope/)
+- [TravelFlightSearchRequest](https://apis.io/schemas/paywithlocus-com/paywithlocus-com-travel-flight-search-request/)
+- [TravelFlightSearchResponse](https://apis.io/schemas/paywithlocus-com/paywithlocus-com-travel-flight-search-response/)
+- [WorkspaceSpendControls](https://apis.io/schemas/paywithlocus-com/paywithlocus-com-workspace-spend-controls/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Paywithlocus Com Context](https://apis.io/jsonld/paywithlocus-com/paywithlocus-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PayWithLocus API Rules](https://apis.io/rules/paywithlocus-com/paywithlocus-com-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PayWithLocus Authentication](https://apis.io/security/paywithlocus-com/paywithlocus-com-authentication/)
+- [PayWithLocus Domain Security](https://apis.io/security/paywithlocus-com/paywithlocus-com-domain-security/)
+- [PayWithLocus Trust Center](https://apis.io/security/paywithlocus-com/paywithlocus-com-trust-center/)
+- [PayWithLocus Vulnerability Disclosure](https://apis.io/security/paywithlocus-com/paywithlocus-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [PayWithLocus Scopes](https://apis.io/scopes/paywithlocus-com/paywithlocus-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PayWithLocus Plans Pricing](https://apis.io/plans/paywithlocus-com/paywithlocus-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://paywithlocus.com/)
+- [Documentation](https://docs.paywithlocus.com/)
+- [Getting started](https://docs.paywithlocus.com/locus-pro/individual/quickstart)
+- [API reference](https://docs.paywithlocus.com/api-reference/introduction)
+- [Pricing](https://paywithlocus.com/pricing)
+- [Sign up](https://platform.paywithlocus.com/signup?tier=user)
+- [Support](https://paywithlocus.com/support)
+- [Changelog](https://paywithlocus.com/changelog)
+- [Blog](https://paywithlocus.com/blog)
+- [Security](https://paywithlocus.com/security)
+- [Compliance](https://paywithlocus.com/security)
+- [Terms of service](https://paywithlocus.com/terms)
+- [Privacy policy](https://paywithlocus.com/privacy)
+- [GitHub](https://github.com/locus-technologies)
+- [Status](https://paywithlocus.com/status)
+
+## API Evangelist rating
+
+**Kin Score 74.9** — exemplar · rubric 0.27.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 68.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 70.7 |
+| Access clarity | 88.9 |
+
+**Agent readiness 78.0** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 38.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/paywithlocus-com/](https://apis.io/providers/paywithlocus-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PayWithLocus: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/paywithlocus-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
